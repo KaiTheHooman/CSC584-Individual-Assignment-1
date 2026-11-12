@@ -24,10 +24,26 @@
             .resultBox{
                 background-color: white;
                 max-width: 450px;
-                margin: 0, auto;
+                margin: 40px auto;
                 border-radius: 8px;
                 padding: 10px;
+                align-items: centre;
             }
+            
+            .home-Btn{
+                display: block;
+                text-align: center;
+                margin-top: 25px;
+                padding: 12px;
+                background-color: #007bff;
+                color: #ffffff;
+                font-weight: bold;
+                border-radius: 8px;
+            }
+            
+            .home-Btn:hover {
+            background-color: lightsteelblue;
+        }
         </style>
     </head>
     <body>
@@ -39,7 +55,7 @@
             <p><strong>Hobbies:</strong> ${hobbies}</p>
             <p><strong>Short Introduction:</strong> ${intro}</p>
             
-            
+            <a href="index.html" class="home-Btn">home</a>
         </div>
         
 </html>

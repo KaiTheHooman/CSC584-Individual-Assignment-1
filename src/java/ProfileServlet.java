@@ -47,6 +47,7 @@ public class ProfileServlet extends HttpServlet {
         request.setAttribute("intro", intro);
         
         request.getRequestDispatcher("profile.jsp").forward(request, response);
+        request.getRequestDispatcher("index.html") .forward(request, response);
     }
     
     
