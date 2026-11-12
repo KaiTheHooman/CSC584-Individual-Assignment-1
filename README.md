@@ -24,21 +24,18 @@ A simple Java-based web application built using Java Servlets, JSP, HTML, and CS
 
 ## Technologies Used
 
-* **Backend:** Java, Jakarta/Java Servlet API, JavaServer Pages (JSP)
+* **Backend:** Java, Java Servlet API, JavaServer Pages (JSP)
 * **Frontend:** HTML5, CSS3
 * **IDE:** Apache NetBeans
-* **Application Server:** Apache Tomcat / GlassFish
+* **Application Server:** GlassFish
 
 ---
 
-## Project Structure
+## How to run the project
 
-```text
-├── src/
-│   └── java/
-│       └── com/profile/
-│           └── ProfileServlet.java   # Controller handling POST requests & forwarding
-├── web/
-│   ├── index.html                    # Input form page
-│   └── profile.jsp                   # Output profile display page
-└── screenshots/                      # Application output screenshots
+1. Clone or Download the Repository: git clone [https://github.com/your-username/CSC584-Individual-Assignment-1.git](https://github.com/your-username/CSC584-Individual-Assignment-1.git)
+2. Open in Netbeans
+   * Go to File > Open Project and select the downloaded project.
+3. Build and Run:
+   * Click the green Run Project button (or press F6).
+   * Your default browser will open index.html. Fill in the six fields and click Submit to view the generated profile on profile.jsp.
