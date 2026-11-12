@@ -10,12 +10,23 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
+        
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 40px;
+            }
+            label, input, textarea {
+                display: block;
+                margin-bottom: 10px;
+            }
+        </style>
     </head>
     <body>
         <p><strong>Name:</strong> ${name}</p>
         <p><strong>Student ID:</strong> ${StudID}</p>
-        <p><strong>Program Code:</strong>${programme}</p>
-        <p><strong>Email:</strong>${email}</p>
-        <p><strong>Hobbies:</strong>${hobbies}</p>
-        <p><strong>Short Introduction:</strong>${intro}</p>
+        <p><strong>Program Code:</strong> ${programme}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Hobbies:</strong> ${hobbies}</p>
+        <p><strong>Short Introduction:</strong> ${intro}</p>
 </html>
