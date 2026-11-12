@@ -33,7 +33,7 @@ A simple Java-based web application built using Java Servlets, JSP, HTML, and CS
 
 ## How to run the project
 
-1. Clone or Download the Repository: git clone [https://github.com/your-username/CSC584-Individual-Assignment-1.git](https://github.com/your-username/CSC584-Individual-Assignment-1.git)
+1. Clone or Download the Repository: git clone [https://github.com/your-username/CSC584-Individual-Assignment-1.git](https://github.com/KaiTheHooman/CSC584-Individual-Assignment-1.git)
 2. Open in Netbeans
    * Go to File > Open Project and select the downloaded project.
 3. Build and Run:
