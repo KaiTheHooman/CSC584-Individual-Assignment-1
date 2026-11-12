@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="ProfileServlet" method="post">
+            <div>
+                <label>Name:</label>
+                <input type="text" name="fullName" required>
+            </div>
+
+            <div>
+                <label>Student ID:</label>
+                <input type="text" name="studentId" required>
+            </div>
+
+            <div>
+                <label>Programme:</label>
+                <input type="text" name="programme" required>
+            </div>
+
+            <div>
+                <label>Email:</label>
+                <input type="email" name="email" required>
+            </div>
+
+            <div>
+                <label>Hobbies:</label>
+                <input type="text" name="hobbies" required>
+            </div>
+
+            <div>
+                <label>Short Self-Introduction:</label>
+                <textarea name="intro" rows="4" cols="40" required></textarea>
+            </div>
+
+            <button type="submit">Submit profile</button>
+        </form>
+    </body>
+</html>
